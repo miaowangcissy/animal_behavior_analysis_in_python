@@ -1,10 +1,4 @@
-Here is a polished, ready-to-use Markdown schedule designed specifically for your GitHub `README.md` file. 
 
-You can copy and paste this directly into your repository. It includes formatting for a clean layout, placeholders for your slides/reading links, and "Open in Colab" button placeholders for your code.
-
-***
-
-```markdown
 # Python for Animal Behavioral Analysis (5-Day Workshop)
 
 **Duration:** 5 Days  
