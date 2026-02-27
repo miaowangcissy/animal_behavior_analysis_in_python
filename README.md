@@ -2,7 +2,6 @@
 # Python for Animal Behavioral Analysis (5-Day Workshop)
 
 **Duration:** 5 Days  
-**Audience:** PhD students in Neuroscience  
 **Prerequisites:** Entry-level knowledge of Python syntax is desirable, but not mandatory.
 
 ## Course Overview
