@@ -1,4 +1,4 @@
-# Python for Animal Behavioral Analysis (5-Day Workshop)
+# Animal Behavior Analysis in Python (5-Day Practice courses)
 
 **Duration:** 5 Days  
 **Prerequisites:** Entry-level knowledge of Python syntax is desirable, but not mandatory.
