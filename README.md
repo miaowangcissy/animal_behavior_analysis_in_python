@@ -80,7 +80,7 @@ To avoid local installation issues and GPU bottlenecks, all coding sessions will
 *   **Morning: High-Level Strategies & Grammar**
     *   **Navigation Strategies:** The Morris Water Maze as a case study for spatial cognitive strategies (thigmotaxis, scanning, directed search).
     *   **Behavioral Grammar:** How sub-second "syllables" transition into complex sequences using Hidden Markov Models (HMMs).
-    *   📝 *Slides:* [Day 5 Theory Slides](path/to/slides.pdf)
+    *   📝 *Slides:* TBA
 *   **Afternoon: Capstone Integration**
     *   Choose an integration project based on your comfort level:
         1.  **Transition Matrices:** Use the `hmmlearn` library to build a transition matrix of the clusters found on Day 4.
