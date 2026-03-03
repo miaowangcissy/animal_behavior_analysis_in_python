@@ -95,26 +95,26 @@ Papers are categorized by how we will use them in the workshop:
 *   🟢 **Green (Optional):** Supplemental material for further reading.
 
 **Day 1**
-*   🟠 [Dawkins 1976 - Hierarchical organisation](https://doi.org/10.1016/0003-3472(76)90131-X)
+*   🟠 [Dawkins 1976 - Hierarchical organisation](https://psycnet.apa.org/record/1976-19904-012)
 *   🟠 [Berman 2018 - Measuring behavior across scales](https://doi.org/10.1186/s12915-018-0494-7)
 
 **Day 2**
 *   🔴 [Mathis 2018 - DeepLabCut: markerless pose estimation](https://doi.org/10.1038/s41593-018-0209-y)
-*   🟠 [Mathis 2020 - Deep learning tools for measurement of behavior](https://doi.org/10.1038/s41593-020-0734-z)
+*   🟠 [Mathis 2020 - Deep learning tools for measurement of behavior](https://www.sciencedirect.com/science/article/pii/S0959438819301151)
 
 **Day 3**
-*   🔴 [Edelhoff 2016 - Path segmentation for beginners](https://doi.org/10.1111/1365-2656.12558)
-*   🟠 [Benhamou 2004 - How to reliably estimate the tortuosity](https://doi.org/10.1242/jeb.00950)
+*   🔴 [Edelhoff 2016 - Path segmentation for beginners](https://link.springer.com/article/10.1186/s40462-016-0086-5)
+*   🟠 [Benhamou 2004 - How to reliably estimate the tortuosity](https://www.sciencedirect.com/science/article/pii/S0022519304001353)
 
 **Day 4**
-*   🔴 [Costa 2024 - A Markovian dynamics for C. elegans](https://doi.org/10.1038/s41467-024-example)
-*   🔴 [Weinreb 2024 - Keypoint-MoSeq](https://doi.org/10.1038/s41592-024-example)
-*   🟠 [Berman 2016 - Predictability and hierarchy in Drosophila](https://doi.org/10.1073/pnas.1605898113)
-*   🟠 [Findley 2021 - Sniff-synchronized, gradient-guided olfactory search](https://doi.org/10.1038/s41586-021-03407-y)
-*   🟢 [Wiltschko 2015 - Mapping Sub-Second Structure in Mouse Behavior](https://doi.org/10.1016/j.neuron.2015.11.031)
+*   🔴 [Costa 2024 - A Markovian dynamics for C. elegans](https://pubmed.ncbi.nlm.nih.gov/39083417/)
+*   🔴 [Weinreb 2024 - Keypoint-MoSeq](https://www.nature.com/articles/s41592-024-02318-2)
+*   🟠 [Berman 2016 - Predictability and hierarchy in Drosophila](https://www.pnas.org/doi/10.1073/pnas.1607601113)
+*   🟠 [Findley 2021 - Sniff-synchronized, gradient-guided olfactory search](https://elifesciences.org/articles/58523)
+*   🟢 [Wiltschko 2015 - Mapping Sub-Second Structure in Mouse Behavior](https://www.sciencedirect.com/science/article/pii/S0896627315010375)
 
 **Day 5**
-*   🟠 [Garthe 2009 - Adult-Generated Hippocampal Neurons & Spatial Strategies](https://doi.org/10.1002/hipo.20509)
+*   🟠 [Garthe 2009 - Adult-Generated Hippocampal Neurons & Spatial Strategies](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0005464)
 
 ---
 *Created for the Python for Animal Behavioral Analysis Workshop.*
