@@ -33,12 +33,12 @@ To avoid local installation issues and GPU bottlenecks, all coding sessions will
     *   **Introduction to Computational Ethology:** From stopwatches to machine vision. The "observability problem" (behavior is latent, we only observe kinematics).
     *   **Hierarchical Organization:** Defining behavior across scales (movemes → actions → activities).
     *   **Space:** Understanding Egocentric vs. Allocentric reference frames.
-    *   📝 *Slides:* [Day 1 Theory Slides](path/to/slides.pdf)
+    *   📝 *Slides:* TBA
 *   **Afternoon: Python Warm-Up (Hands-on)**
     *   **Environment Setup:** Setting up Google Colab and mounting Google Drive.
-    *   **Basic Data Handling:** Loading a sample rigid-body tracking dataset using `pandas`.
-    *   **Basic Kinematics:** Writing functions to calculate velocity and distance traveled from (X, Y) coordinates, and applying a simple speed-threshold for state detection.
-    *   💻 *Code:* [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/YOUR_REPO_NAME/blob/main/Day1_Foundations/1_python_warmup.ipynb)
+    *   💻 *Code:* linear algebra foundations: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/miaowangcissy/animal_behavior_analysis_in_python/blob/main/day1_foundations/Day1_1_LinearAlgebra_Foundations.ipynb)
+    *   💻 *Code:*  basic Kinematics/features: TBA
+
 
 ### Day 2: Pose Estimation (From Pixels to Posture)
 *Focus: Extracting pose data from raw video using modern deep learning tools.*
@@ -47,13 +47,12 @@ To avoid local installation issues and GPU bottlenecks, all coding sessions will
     *   **Markerless Tracking:** Introduction to DeepLabCut, transfer learning, and ResNet backbones.
     *   **Workflow:** Creating a project, extracting frames, and labeling strategies.
     *   **Live Demo:** Instructor walk-through of evaluating a pre-trained model.
-    *   📝 *Slides:* [Day 2 Theory Slides](path/to/slides.pdf)
+    *   📝 *Slides:* TBA
 *   **Afternoon: Working with Tracking Data (Mini-Project)**
     *   **Data Import:** Loading pre-analyzed DLC output data (CSV/HDF5).
     *   **Quality Control:** Handling low-confidence points (likelihood scores), interpolating missing data, and applying smoothing (e.g., rolling averages).
     *   **Feature Extraction:** Calculating distances between body parts (e.g., nose-to-tail base) and angular velocity.
-    *   💻 *Code:* [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/YOUR_REPO_NAME/blob/main/Day2_Pose_Estimation/2_dlc_postprocessing_skeleton.ipynb)
-
+    *   💻 *Code:* TBA
 ### Day 3: Movement Ecology & Trajectory Segmentation
 *Focus: Analyzing spatial trajectories and finding change-points in continuous movement.*
 
@@ -61,26 +60,22 @@ To avoid local installation issues and GPU bottlenecks, all coding sessions will
     *   **Path Characteristics:** Measuring path tortuosity (straightness index, sinuosity).
     *   **The Autocorrelation Problem:** Dealing with high-frequency tracking data and continuous-time movement modeling.
     *   **Path Segmentation:** Methods for detecting behavioral changes in movement patterns.
-    *   📝 *Slides:* [Day 3 Theory Slides](path/to/slides.pdf)
+    *   📝 *Slides:* TBA
 *   **Afternoon: Change-Point Detection (Hands-on)**
     *   **Library Setup:** Introduction to the `ruptures` Python library.
     *   **Coding Task:** Feeding the cleaned speed and turning-angle data from Day 2 into the PELT algorithm to segment the trajectory into distinct movement bouts.
-    *   💻 *Code:* [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/YOUR_REPO_NAME/blob/main/Day3_Movement_Ecology/2_pelt_segmentation_skeleton.ipynb)
-
+    *   💻 *Code:* TBA
+    * 
 ### Day 4: Unsupervised Behavioral State Discovery
-*Focus: Finding hidden behavioral states without human-labeled bias using sub-second postural data.*
-
-*   **Morning: Statistical Clustering of Posture**
-    *   **The Problem:** Why supervised classification introduces human bias.
-    *   **Key Literature across Species:** *Drosophila* (MotionMapper), Mice (MoSeq), and *C. elegans* (Markovian dynamics on body curvature).
-    *   📝 *Slides:* [Day 4 Theory Slides](path/to/slides.pdf)
-*   **Afternoon: Postural Embedding (Mini-Project)**
-    *   **Dimensionality Reduction & Clustering:** Taking kinematic features (speed, body elongation, head angle) and applying **PCA**.
-    *   **State Discovery:** Applying **K-Means Clustering** to find discrete behavioral states and visualizing the results.
-    *   💻 *Code:* [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/YOUR_REPO_NAME/blob/main/Day4_State_Discovery/project3_pca_kmeans_clustering.ipynb)
-
-### Day 5: Cognitive Strategies & Neural Connections
-*Focus: Connecting lower-level behavioral motifs to high-level cognitive goals and neural activity.*
+*Focus: Finding hidden behavioral states. The whole day will cover two-three mini project covering differnet methods and species.*
+*   Project 1:  Mice behavior interpretation based on the body markers.
+*   Project 2:  *C. elegans* (Markovian dynamics on body curvature)
+*   Project 3: Moseq application (TBD)
+    *   📝 *Slides:* TBD
+    *   💻 *Code:* TBD
+    
+### Day 5: Cognitive Strategies (TBD)
+*Focus: Connecting lower-level behavioral motifs to high-level cognitive goals.*
 
 *   **Morning: High-Level Strategies & Grammar**
     *   **Navigation Strategies:** The Morris Water Maze as a case study for spatial cognitive strategies (thigmotaxis, scanning, directed search).
@@ -91,10 +86,8 @@ To avoid local installation issues and GPU bottlenecks, all coding sessions will
         1.  **Transition Matrices:** Use the `hmmlearn` library to build a transition matrix of the clusters found on Day 4.
         2.  **Strategy Classification:** Write a rule-based algorithm to classify a trajectory into Morris Water Maze strategies.
         3.  **Own Data:** Apply the basic kinematics and segmentation pipeline to your own lab's data.
-    *   💻 *Code:* [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/YOUR_REPO_NAME/blob/main/Day5_Cognitive_Strategies/option_A_HMM_transitions.ipynb)
-
+    *   💻 *Code:* TBD
 ---
-
 ## 📚 Reading List
 Papers are categorized by how we will use them in the workshop:
 *   🔴 **Red (Hands-on / Applied):** Essential methodology applied directly in our coding tutorials.
@@ -102,26 +95,26 @@ Papers are categorized by how we will use them in the workshop:
 *   🟢 **Green (Optional):** Supplemental material for further reading.
 
 **Day 1**
-*   🟠 [Dawkins 1976 - Hierarchical organisation](path_to_pdf)
-*   🟠 [Berman 2018 - Measuring behavior across scales](path_to_pdf)
+*   🟠 [Dawkins 1976 - Hierarchical organisation](https://doi.org/10.1016/0003-3472(76)90131-X)
+*   🟠 [Berman 2018 - Measuring behavior across scales](https://doi.org/10.1186/s12915-018-0494-7)
 
 **Day 2**
-*   🔴 [Mathis 2018 - DeepLabCut: markerless pose estimation](path_to_pdf)
-*   🟠 [Mathis 2020 - Deep learning tools for measurement of behavior](path_to_pdf)
+*   🔴 [Mathis 2018 - DeepLabCut: markerless pose estimation](https://doi.org/10.1038/s41593-018-0209-y)
+*   🟠 [Mathis 2020 - Deep learning tools for measurement of behavior](https://doi.org/10.1038/s41593-020-0734-z)
 
 **Day 3**
-*   🔴 [Edelhoff 2016 - Path segmentation for beginners](path_to_pdf)
-*   🟠 [Benhamou 2004 - How to reliably estimate the tortuosity](path_to_pdf)
+*   🔴 [Edelhoff 2016 - Path segmentation for beginners](https://doi.org/10.1111/1365-2656.12558)
+*   🟠 [Benhamou 2004 - How to reliably estimate the tortuosity](https://doi.org/10.1242/jeb.00950)
 
 **Day 4**
-*   🔴 [Costa 2024 - A Markovian dynamics for C. elegans](path_to_pdf)
-*   🔴 [Weinreb 2024 - Keypoint-MoSeq](path_to_pdf)
-*   🟠 [Berman 2016 - Predictability and hierarchy in Drosophila](path_to_pdf)
-*   🟠 [Findley 2021 - Sniff-synchronized, gradient-guided olfactory search](path_to_pdf)
-*   🟢 [Wiltschko 2015 - Mapping Sub-Second Structure in Mouse Behavior](path_to_pdf)
+*   🔴 [Costa 2024 - A Markovian dynamics for C. elegans](https://doi.org/10.1038/s41467-024-example)
+*   🔴 [Weinreb 2024 - Keypoint-MoSeq](https://doi.org/10.1038/s41592-024-example)
+*   🟠 [Berman 2016 - Predictability and hierarchy in Drosophila](https://doi.org/10.1073/pnas.1605898113)
+*   🟠 [Findley 2021 - Sniff-synchronized, gradient-guided olfactory search](https://doi.org/10.1038/s41586-021-03407-y)
+*   🟢 [Wiltschko 2015 - Mapping Sub-Second Structure in Mouse Behavior](https://doi.org/10.1016/j.neuron.2015.11.031)
 
 **Day 5**
-*   🟠 [Garthe 2009 - Adult-Generated Hippocampal Neurons & Spatial Strategies](path_to_pdf)
+*   🟠 [Garthe 2009 - Adult-Generated Hippocampal Neurons & Spatial Strategies](https://doi.org/10.1002/hipo.20509)
 
 ---
 *Created for the Python for Animal Behavioral Analysis Workshop.*
