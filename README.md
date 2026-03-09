@@ -100,6 +100,7 @@ Papers are categorized by how we will use them in the workshop:
 
 **Day 2**
 *   🔴 [Mathis 2018 - DeepLabCut: markerless pose estimation](https://doi.org/10.1038/s41593-018-0209-y)
+*   🔴 [Nath 2019 - Using DeepLabCut for 3D markerless pose estimation across species and behaviors](https://www.nature.com/articles/s41596-019-0176-0): more practical guidance for using DLC
 *   🟠 [Mathis 2020 - Deep learning tools for measurement of behavior](https://www.sciencedirect.com/science/article/pii/S0959438819301151)
 
 **Day 3**
