@@ -1,0 +1,4 @@
+object,center_x,center_y,bbox_x1,bbox_y1,bbox_x2,bbox_y2
+object_1_square,155,167,119,131,198,209
+object_2_circle,364,177,321,133,411,223
+object_3_cylinder,390,412,362,384,418,440
