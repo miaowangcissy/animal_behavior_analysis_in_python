@@ -53,6 +53,7 @@ To avoid local installation issues and GPU bottlenecks, all coding sessions will
     *   **Quality Control:** Handling low-confidence points (likelihood scores), interpolating missing data, and applying smoothing (e.g., rolling averages).
     *   **Feature Extraction:** Calculating distances between body parts (e.g., nose-to-tail base) and angular velocity.
     *   💻 *Code:* TBA
+    *   debug: git config --global --add safe.directory /storage/share/git/ria-store/alias/tutorial-deeplabcut
 ### Day 3: Movement Ecology & Trajectory Segmentation
 *Focus: Analyzing spatial trajectories and finding change-points in continuous movement.*
 
